@@ -201,7 +201,7 @@ fun TopTeachers() {
         }
         LazyRow {
             items(5) { index ->
-                DoctorCard(
+                Teachercard(
                     name = when (index) {
                         0 -> "Mr.Govind Kumar Sir"
                         1 -> "Mr.Rajesh Singh Sir"
@@ -249,7 +249,7 @@ fun TopTeachers() {
 }
 
 @Composable
-fun DoctorCard(name: String, specialty: String, rating: Float, experience: String, imageRes: Int) {
+fun Teachercard(name: String, specialty: String, rating: Float, experience: String, imageRes: Int) {
     Card(
         modifier = Modifier
             .width(200.dp)

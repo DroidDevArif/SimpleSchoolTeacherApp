@@ -82,7 +82,7 @@ fun  TeacherHeader() {
                     }
             )
             Image(
-                painter = painterResource(id = R.drawable.youngerteacher),
+                painter = painterResource(id = R.drawable.baseline_share_24),
                 contentDescription = "Back",
                 modifier = Modifier
                     .size(60.dp)
